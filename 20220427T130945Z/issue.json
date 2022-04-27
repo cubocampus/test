@@ -1,0 +1,49 @@
+{
+   "contents" : [
+      {
+         "abstract" : null,
+         "author" : null,
+         "id" : "desde_cero",
+         "series" : null,
+         "socialComment" : null,
+         "socialImageUrl" : null,
+         "socialUrl" : null,
+         "tags" : null,
+         "title" : "",
+         "titleHtml" : "desde cero",
+         "type" : "article"
+      }
+   ],
+   "id" : "urn:uuid:quark:html5:desde_cero:publication",
+   "media" : null,
+   "publishedDate" : "2022-04-27T13:09:49Z",
+   "subtitle" : null,
+   "title" : "desde cero",
+   "variants" : [
+      {
+         "fontSize" : "16",
+         "height" : "1920",
+         "orientation" : "portrait",
+         "pages" : [
+            {
+               "contents" : [
+                  {
+                     "href" : "#desde_cero",
+                     "pageRef" : "1"
+                  }
+               ],
+               "id" : "1",
+               "preview1024" : "article/Maquetaci_n_1/assets/Page1_preview.jpeg",
+               "properties" : {
+                  "height" : "",
+                  "responsive" : "true",
+                  "width" : ""
+               },
+               "thumbnail" : "article/Maquetaci_n_1/assets/Page1_preview.jpeg",
+               "url" : "article/Maquetaci_n_1/Page1.html"
+            }
+         ],
+         "width" : "1280"
+      }
+   ]
+}
