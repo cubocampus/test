@@ -1,49 +1,200 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><base href="./"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><!-- See https://goo.gl/OOhYW5 --><link rel="manifest" href="manifest.json"><!-- See https://goo.gl/qRE0vM --><meta name="theme-color" content="#3f51b5"><!-- Add to homescreen for Chrome on Android. Fallback for manifest.json --><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="QuarkXPress"><!-- Add to homescreen for Safari on iOS --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="QuarkXPress"><!-- Most content is shared to Facebook as a URL, 
-      so it's important that you mark up your website with Open Graph tags to take control over how your content appears on Facebook. 
-      Follow this link for more details: https://developers.facebook.com/docs/sharing/webmasters --><!-- The title of your article without any branding such as your site name. 
-    <meta property="og:title" content="" /> --><!-- A brief description of the content, usually between 2 and 4 sentences. 
-      This will displayed below the title of the post on Facebook. 
-    <meta property="og:description" content="" /> --><!-- The URL of the image that appears when someone shares the content to Facebook. 
-      Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. 
-      At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images. 
-      Images can be up to 8MB in size. https://developers.facebook.com/docs/sharing/best-practices#images 
-    <meta property="og:image" content="" /> --><!-- Homescreen icons --><link rel="apple-touch-icon" href="images/manifest/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="76x76" href="images/manifest/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="120x120" href="images/manifest/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="images/manifest/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="images/manifest/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="images/manifest/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="images/manifest/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="192x192" href="images/manifest/apple-touch-icon-192x192.png"><link rel="apple-touch-icon" sizes="512x512" href="images/manifest/apple-touch-icon-512x512.png"><!-- Tile icon for Windows 8 (144x144 + tile color) --><meta name="msapplication-TileImage" content="images/manifest/apple-touch-icon-144x144.png"><meta name="msapplication-TileColor" content="#3f51b5"><meta name="msapplication-tap-highlight" content="no"><link rel="icon" type="image/x-icon" href="favicon.png"><style>body {
-        margin: 0;
-        padding: 0;
-        color: #333333;
-        font-family: AvenirLTStd-Medium, Arial, Verdana, Sans-Serif;
-        line-height: 1.5;
-        background-color: #fff;
-        -webkit-font-smoothing: antialiased;
-      }</style><link href="styles.a2b6264eca008ce93278.bundle.css" rel="stylesheet"/></head><body><noscript><div style="width: 100%;
-              position: fixed;
-              top: 0;
-              overflow: hidden;
-              background-color: #b4b4b4;
-              color: #f4f4f4;
-              height: 36px;
-              display: block;
-              font-size: 16px;
-              line-height: 36px;
-              text-align: center;">JavaScript is not enabled.</div></noscript><qrk-root></qrk-root><script>VERSION="2.1.5-master-185fbda-20210713T120942Z-73610"</script>
-<script>function triggerServiceWorkerEvent() {
-        window.serviceWorkerEventTriggered = true;
-        window.dispatchEvent(new Event('serviceWorkerEvent'));
-      }
+<!DOCTYPE html>
+<html>
 
-      function isSafari() {
-        var ua = window.navigator.userAgent;
-        return /Safari/.test(ua) && !(/Chrome/.test(ua))
-          && !navigator.userAgent.match('CriOS') && !(/FxiOS/.test(ua))
-      }
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Team-1.css">
+    <link rel="stylesheet" href="assets/css/Team.css">
+</head>
 
-      if (!isSafari() && window.location.hostname !== 'localhost' && 'serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js').then(function (registration) {
-          triggerServiceWorkerEvent();
-        }).catch(function (err) {
-          triggerServiceWorkerEvent();
-          console.log('Service Worker registration failed: ', err);
-        });
-      } else {
-        triggerServiceWorkerEvent();
-      }</script><link rel="stylesheet" href="css/ui-config.css"><script type="text/javascript" src="inline.916fc5dff7f455e57b0d.bundle.js"></script><script type="text/javascript" src="polyfills.5532f3204b5c98ae76b7.bundle.js"></script><script type="text/javascript" src="scripts.2806218667518600d4b8.bundle.js"></script><script type="text/javascript" src="vendor.e395aad5fbde47a02a34.bundle.js"></script><script type="text/javascript" src="main.3c1706e0ce0a73d1f575.bundle.js"></script></body></html>
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-app">
+                        <path d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z"></path>
+                    </svg></span><span>Diplomatura en Cine Documental</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="objetivos.html">Objetivos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="d-flex masthead" style="background-image:url('assets/img/bg-masthead.jpg');">
+        <div class="container my-auto text-center">
+            <h1 class="mb-1" style="color: rgb(252,252,252);">Diplomatura en Cine documental</h1>
+            <h3 class="mb-5"></h3><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#about">Find Out More</a>
+            <div class="overlay"></div>
+        </div>
+    </header>
+    <section id="about" class="content-section bg-light">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Universidad Nacional de Río Cuarto</h2>
+                    <h2>Facultad de Ciencias Humanas</h2>
+                    <h2>Agencia Córdoba Cultura</h2>
+                    <p class="lead mb-5"><span>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at&nbsp;</span><a href="https://unsplash.com/">Unsplash</a><span>!</span></p><a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#services">What We Offer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="content-section bg-primary text-white text-center">
+        <div class="container">
+            <div class="content-section-heading">
+                <h3 class="text-secondary mb-0">DIPLOMATURA</h3>
+                <h2 class="mb-5" style="padding-bottom: 0;">Destinatarios</h2>
+                <p style="padding-top: 0;padding-bottom: 31px;">La Diplomatura en Cine documental está dirigido a estudiantes egresadxs de las carreras afines: cine, diseño, producción y realización audiovisual, comunicador social, licenciado en Ciencias de la Comunicación, técnicos en producción audiovisual, entre otros, además de profesionales del medio que acrediten experiencia de más de tres años en la actividad.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-screen-smartphone"></i></span>
+                    <h4><strong>Responsive</strong></h4>
+                    <p class="mb-0 text-faded">Looks great on any screen size!</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-pencil"></i></span>
+                    <h4><strong>Redesigned</strong></h4>
+                    <p class="mb-0 text-faded">Freshly redesigned for Bootstrap 5.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-like"></i></span>
+                    <h4><strong>Favorited</strong></h4>
+                    <p class="mb-0 text-faded"><span>Milions of users&nbsp;</span><i class="fa fa-heart"></i><span>&nbsp;us!</span></p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-mustache"></i></span>
+                    <h4><strong>Question</strong></h4>
+                    <p class="mb-0 text-faded">I mustache you a question...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div data-bss-parallax-bg="true" style="height: 600px;background-image: url(assets/img/johann-walter-bantz-woE5G6zzFQo-unsplash.jpg);background-position: center;background-size: cover;">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                        <div style="max-width: 350px;">
+                            <h1 class="text-uppercase fw-bold text-light">“el cine como<br>Creador de conciencia”</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-4 mb-lg-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Comisión Académica ad hoc:</h2>
+                <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
+            </div>
+        </div>
+        <div class="row gy-3 row-cols-2 row-cols-md-4 justify-content-center">
+            <div class="col">
+                <div class="card border-0 shadow-none">
+                    <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle mb-3 fit-cover" width="130" height="130" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <h5 class="fw-bold text-primary card-title mb-0">Marcos Altamirano<br></h5>
+                        <p class="text-muted card-text mb-2">Erat netus</p>
+                        <ul class="list-inline fs-6 text-muted w-100 mb-0">
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                                    </svg></div>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                                    </svg></div>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                    </svg></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-none">
+                    <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle mb-3 fit-cover" width="130" height="130" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <h5 class="fw-bold text-primary card-title mb-0">Claudio Asaad<br></h5>
+                        <p class="text-muted card-text mb-2">Erat netus</p>
+                        <ul class="list-inline fs-6 text-muted w-100 mb-0">
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                                    </svg></div>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                                    </svg></div>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                    </svg></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-none">
+                    <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle mb-3 fit-cover" width="130" height="130" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <h5 class="fw-bold text-primary card-title mb-0">Gastón Molayoli<br></h5>
+                        <p class="text-muted card-text mb-2">Erat netus</p>
+                        <ul class="list-inline fs-6 text-muted w-100 mb-0">
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                                    </svg></div>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                                    </svg></div>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <div class="d-flex flex-column align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                    </svg></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content-section bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">The buttons below are impossible to resist..</h2><a class="btn btn-light btn-xl me-4" role="button" href="#">Click Me!</a><a class="btn btn-dark btn-xl me-4" role="button" href="#">Look at Me</a>
+        </div>
+    </section>
+    <section id="contact" class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" style="padding-top: 40px;"><div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.963142077523!2d-64.3030924990326!3d-33.11005282146889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdffb8089fff01%3A0x8851f91e0b23b631!2sUniversidad%20Nacional%20de%20R%C3%ADo%20Cuarto!5e0!3m2!1ses!2sar!4v1656514624504!5m2!1ses!2sar" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="#"><i class="icon-social-facebook"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="#"><i class="icon-social-twitter"></i></a></li>
+                <li class="list-inline-item">&nbsp;<a class="link-light social-link rounded-circle" href="#"><i class="icon-social-github"></i></a></li>
+            </ul>
+            <p class="text-muted mb-0 small">Copyright &nbsp;© Brand 2022</p>
+        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/stylish-portfolio.js"></script>
+</body>
+
+</html>
